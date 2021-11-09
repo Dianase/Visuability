@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from '../../assets/img/logo.svg';
-import Greetings from '../../containers/Greetings/Greetings';
+import Visuability_Logo from '../../assets/img/Visuability_Logo';
+
 import './Popup.css';
 
 const Popup = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={Visuability_Logo} className="App-logo" alt="logo of an eye looking up makes up the V for visuability and megaphone at the end of word" />
         <p>
         <code>Visuability</code> 
         </p>
